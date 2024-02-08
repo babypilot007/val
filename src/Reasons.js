@@ -7,7 +7,6 @@ import planes from './images/planes.jpg'
 import burger from './images/burger.jpg'
 import random from './images/random.jpg'
 import { useNavigate} from 'react-router-dom';
-import { useState } from 'react';
 
 
 
@@ -18,7 +17,6 @@ function Reasons() {
 
 const navigate = useNavigate()
 
-const[show,setShow] = useState(true)
 
   return (
     <div>
@@ -27,7 +25,6 @@ const[show,setShow] = useState(true)
 
                 <header className="App-header">
 
-            {show ? 
             <div>
              <div className='div'>
              <h1>Remember our 1st date?</h1>
@@ -79,7 +76,7 @@ const[show,setShow] = useState(true)
           <div id="heart"></div>
              
          </div>
-         </div> :null}
+         </div>
                    
                        
                 
