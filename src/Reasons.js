@@ -28,37 +28,37 @@ const navigate = useNavigate()
             <div>
              <div className='div'>
              <h1>Remember our 1st date?</h1>
-             <img src={sunrise} alt="Logo" />
+             <img src={sunrise} alt="sunrise" />
          </div>
 
          <div className='div'>
              <h1>or our favourite Pizza joint</h1>
-             <img src={pizza} alt="Logo" />
+             <img src={pizza} alt="Pizza" />
          </div>
 
          <div className='div'>
              <h1>or our favourite Coffee joint</h1>
-             <img src={coffee} alt="Logo" />
+             <img src={coffee} alt="Coffee" />
          </div>
 
          <div className='div'>
              <h1>or when we were sweating together ;))</h1>
-             <img src={disco} alt="Logo"/>
+             <img src={disco} alt="Disco"/>
          </div>
 
          <div className='div'>
              <h1>or when we were crashing into each other at Mach 2</h1>
-             <img src={planes} alt="Logo"/>
+             <img src={planes} alt="Planes"/>
          </div>
 
          <div className='div'>
              <h1>or when you made the best burgers for me</h1>
-             <img src={burger} alt="Logo"/>
+             <img src={burger} alt="Burger"/>
          </div>
 
          <div className='div'>
              <h1>or just the random shit that we do</h1>
-             <img src={random} alt="Logo"/>
+             <img src={random} alt="random"/>
          </div>
 
          <div className='div_last'>
