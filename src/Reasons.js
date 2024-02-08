@@ -62,13 +62,15 @@ const navigate = useNavigate()
          </div>
 
          <div className='div_last'>
-             <h1>These are just a few of the many reasons why you should be my Valentine...
+             <h2>These are just a few of the many reasons why you should be my Valentine...
                  not just this year, but for every year from here on ...
-             </h1>
+             </h2>
 
              <h2>So, I ask you again..</h2>
 
-             <h1>Will you be my <span>Valentine</span> ??? </h1>
+             <h1>Will you be my </h1>
+
+             <h1 className='span'>Valentine ???</h1>
 
           <button onClick={()=>{navigate('/yes')}} ><h2>Yes</h2></button>
 

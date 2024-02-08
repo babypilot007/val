@@ -54,8 +54,8 @@ button{
 }
 
 img{
-  height: 80vh;
-  width: 70vw;
+  height: calc(70vh + 2vmin);
+  width: calc(80vw + 2vmin);
 }
 
 .div{
@@ -63,10 +63,17 @@ img{
   height: 100vh;
 }
 
-span{
+.span{
   color :red;
+  animation: heartbeat 2s infinite;
+  font-size: calc(8vw + 1vw);
+
 }
 
+.happy{
+  height: calc(40vh + 1vw);
+  width: calc(50vw + 1vw);
+}
 
 
 #heart {
@@ -226,3 +233,4 @@ span{
   height: 100vh;
   padding-top: 200px;
 }
+
